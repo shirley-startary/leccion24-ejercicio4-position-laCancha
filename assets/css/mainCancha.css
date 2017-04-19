@@ -1,0 +1,56 @@
+h1{
+  font-family: "calibri";
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  color:green;
+}
+#areaCancha{
+  position: relative;
+  width: 900px;
+  height: 500px;
+  background-color: #45992D;
+}
+#areaJuego{
+  position: absolute;
+  width: 850px;
+  height: 450px;
+  border: 3px solid white;
+  top: 25px;
+  left: 25px;
+}
+.porteria{
+  position: absolute;
+  width: 150px;
+  height: 300px;
+  border: 3px solid white;
+  top:65px;
+}
+#derecha{
+  right: 0;
+}
+#circuloCentro{
+  position: absolute;
+  border: 3px solid white;
+  border-radius: 80px;
+  width: 150px;
+  height: 150px;
+  top:150px;
+  left: 350px;
+}
+.balon{
+  position: absolute;
+  background-color: white;
+  border-radius:15px ;
+  width:20px;
+  height: 20px;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.5)
+}
+#balonIzquierdo{
+  right: -10px;
+}
+#balonCentro{
+  top: -120px;
+}
+#balonDerecho{
+  top:280px;
+  left: -20px;
+}
